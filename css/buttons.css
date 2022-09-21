@@ -55,7 +55,7 @@
 }
 
 .btn.succes{
-	background-color: var(--color-success);
+	background-color: var(--color-danger);
 }
 
 .btn:hover,

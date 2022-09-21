@@ -623,7 +623,7 @@ main .data_table a {
         font-size: 2rem;
     }
 
-    
+
 }
 
 
@@ -638,33 +638,33 @@ main .content-sub-maim {
 
 
 main .ttl-content {
-    display: flex;    
-    position: relative; 
-    margin-bottom: 1rem;   
+    display: flex;
+    position: relative;
+    margin-bottom: 1rem;
 }
 
 
 main .ttl-content h1 {
     display: flex;
-    
+
     margin-left: 1rem;
-    
+
     align-items: center;
     position: relative;
-    
-} 
+
+}
 
 main .ttl-content span {
     display: flex;
     align-items: center;
-    
-    font-size: 1.6rem;    
+
+    font-size: 1.6rem;
     margin-left: 1rem;
 }
 
 
 
-.form-control {   
+.form-control {
     display: block;
     padding: 6px 12px;
     height: 40px;
@@ -686,7 +686,7 @@ textarea {
     border: 1px solid var(--color-dark);
     background: var(--color-white);
     border-radius: 4px;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     color: var(--color-dark);
 }
 
@@ -702,7 +702,65 @@ textarea:focus {
     border-color: var(--color-warning);
 }
 
+main .content-sub-maim .lista-items {    
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 
+main .content-sub-maim .lista-items .item {
+    padding: var(--card-padding);
+    background: var(--color-light);
+    border-radius: var(--border-radius-1);
+    
+}
+
+main .content-sub-maim .lista-items .item .btn-media-r {
+    float: right;
+}
+
+main .content-sub-maim .lista-items .item .btn-media-r a {
+    height: 25px;
+    width: 25px;
+    margin: 0.2rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+}
+
+main .content-sub-maim .lista-items .item .btn-media-r span {
+    font-size: 1.3rem;
+}
+
+.add-item {   
+    width: 12rem; 
+    display: flex;
+    align-items: center;
+    border: 1.5px dashed var(--color-primary);
+    color: var(--color-primary);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius-1);
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.add-item div {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.add-item:hover {
+box-shadow: none;
+cursor: pointer;
+}
 
 /* 
 form{
